@@ -28,7 +28,7 @@ services:
       ME_CONFIG_BASICAUTH_USERNAME: admin
       ME_CONFIG_BASICAUTH_PASSWORD: admin123
     ports:
-      - "0.0.0.0:8081:8081"
+      - "0.0.0.0:27018:27018"
     restart: always
     networks:
       - MONGO
